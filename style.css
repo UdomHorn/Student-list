@@ -1,7 +1,8 @@
-*{
+* {
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
 }
+
 h2 {
   display: flex;
   justify-content: center;
@@ -58,12 +59,12 @@ button {
 .student-list {
   /* width: 400px; */
   display: grid;
-  grid-template-columns: 60px 100px 90px 100px 90px;
+  grid-template-columns: 60px 100px 80px 90px 90px;
   align-items: center;
   margin-top: 40px;
   padding-left: 20px;
   /* background-color: red; */
-  font-size: small;
+  font-size: 10px;
 }
 
 
@@ -75,17 +76,20 @@ button {
 .button-delete:hover {
   background-color: rgb(236, 4, 4);
 }
-.x{
+
+.x {
   display: flex;
   justify-content: end;
   padding-bottom: 10px;
 }
-.x:hover{
+
+.x:hover {
   color: red;
   cursor: pointer;
 }
+
 .note {
-  color:white;
+  color: white;
   /* width: 400px; */
   width: 100%;
   height: 100vh;
@@ -98,6 +102,7 @@ button {
   left: 0;
   text-align: center;
 }
+
 span {
   font-weight: bold;
   color: red;
