@@ -71,3 +71,9 @@ function Addstudent() {
 
   rederStudentList();
 }
+
+
+function Hidemenu() {
+  const note = document.querySelector('.note');
+  note.style.display = 'none';
+}
