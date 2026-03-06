@@ -58,10 +58,10 @@ button {
 .student-list {
   /* width: 400px; */
   display: grid;
-  grid-template-columns: 80px 100px 100px 100px 100px;
+  grid-template-columns: 60px 100px 90px 100px 90px;
   align-items: center;
   margin-top: 40px;
-  padding-left: 50px;
+  padding-left: 20px;
   /* background-color: red; */
   font-size: small;
 }
