@@ -56,12 +56,16 @@ button {
 }
 
 .student-list {
+  /* width: 400px; */
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-columns: 80px 100px 100px 100px 100px;
   align-items: center;
   margin-top: 40px;
   padding-left: 50px;
+  /* background-color: red; */
+  font-size: small;
 }
+
 
 .button-delete {
   background-color: red;
